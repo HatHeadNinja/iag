@@ -1,4 +1,4 @@
-const {intro, apology, expectation, closing} = require('./aig.js');
+const {intro, atrocity, apology, expectation, closing} = require('./aig.js');
 
 const intros       = ['Hello.','Good day.'];
 const apologies    = ['We are sorry.', 'We apologize.'];
