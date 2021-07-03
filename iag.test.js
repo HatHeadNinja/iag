@@ -2,7 +2,7 @@ const {intro, apology, closing} = require('./aig.js');
 
 const intros    = ['Hello.','Good day.'];
 const apologies = ['We are sorry.', 'We apologize.'];
-const closings   = ['Take generations to address.','Not solved quickly.']
+const closings   = ['It will take generations to address.','Change will not happen over night.']
 
 test('Random intro', () => expect(intros).toContain(intro));
 
