@@ -2,6 +2,6 @@ const apology = require('./aig.js');
 
 const apologies = ['We are sorry.', 'We apologize.']
 
-test('Simple apology', () => {
+test('Random apologies', () => {
   expect(apologies).toContain(apology);
 });
