@@ -1,3 +1,3 @@
-const apology = true;
+const apology = 'We are sorry.';
 
 module.exports = apology;
