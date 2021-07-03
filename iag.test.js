@@ -5,4 +5,4 @@ const apologies = ['We are sorry.', 'We apologize.'];
 
 test('Simple intro', () => expect(intros).toContain(intro));
 
-test.skip('Random apologies', () => expect(apologies).toContain(apology));
+test('Random apologies', () => expect(apologies).toContain(apology));
