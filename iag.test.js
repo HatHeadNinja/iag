@@ -1,5 +1,7 @@
 const apology = require('./aig.js');
 
+
 test('Simple apology', () => {
-  expect(apology).toBe('We are sorry.');
+  const apologies = 'We are sorry.'
+  expect(apology).toEqual(apologies);
 });
