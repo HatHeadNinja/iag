@@ -13,4 +13,4 @@ test('Random expectations', () => expect(expectations).toContain(expectation));
 
 test('Random closings', () => expect(closings).toContain(closing));
 
-test('Statement', () => expect(statement).anything());
+test('Statement returned', () => expect(statement).toEqual(expect.anything()));

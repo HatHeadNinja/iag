@@ -17,4 +17,4 @@ exports.closing = closing;
 exports.statement = intro + ' ' 
                   + apology + ' '
                   + expectation + ' '
-                  + closing;
+                  + closing; //?
