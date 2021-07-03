@@ -1,7 +1,9 @@
-const apology = require('./aig.js');
+const intro     = require('./aig.js');
+const apology   = require('./aig.js');
 
-const apologies = ['We are sorry.', 'We apologize.']
+const intros    = ['Hello.','Good day.'];
+const apologies = ['We are sorry.', 'We apologize.'];
 
-test('Random apologies', () => {
-  expect(apologies).toContain(apology);
-});
+test('Simple intro', () => expect(intros).toContain(intro));
+
+test('Random apologies', () => expect(apologies).toContain(apology));
