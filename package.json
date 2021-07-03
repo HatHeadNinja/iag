@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/HatHeadNinja/iag#readme",
   "devDependencies": {
-    "eslint": "^7.30.0"
+    "eslint": "^7.30.0",
+    "jest": "^27.0.6"
   }
 }
