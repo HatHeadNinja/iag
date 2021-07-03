@@ -1,4 +1,4 @@
-const {intro, atrocity, apology, expectation, closing} = require('./aig.js');
+const {intro, apology, expectation, closing, statement} = require('./aig.js');
 
 const intros       = ['Hello.','Good day.'];
 const apologies    = ['We are sorry.', 'We apologize.'];
@@ -12,3 +12,5 @@ test('Random apologies', () => expect(apologies).toContain(apology));
 test('Random expectations', () => expect(expectations).toContain(expectation));
 
 test('Random closings', () => expect(closings).toContain(closing));
+
+test('Statement', () => expect(statement).anything());
