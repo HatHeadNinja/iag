@@ -3,7 +3,7 @@ const {intro, apology, expectation, closing, statement} = require('./iag.js');
 const intros       = require('./intros.json');
 const apologies    = require('./apologies.json');
 const expectations = require('./expectations.json');
-const closings     = ['We look forward to working with our Indigenous partners.','Together, we can overcome colonial structures and institutions.']
+const closings     = require('./closings.json');
 
 test('Random intro selected from intros array', () => expect(intros).toContain(intro));
 

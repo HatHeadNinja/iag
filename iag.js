@@ -1,7 +1,7 @@
 const intros       = require('./intros.json');
 const apologies    = require('./apologies.json');
 const expectations = require('./expectations.json');
-const closings     = ['We look forward to working with our Indigenous partners.','Together, we can overcome colonial structures and institutions.']
+const closings     = require('./closings.json');
 
 const randomIndex = (a) => Math.floor(Math.random() * (a.length))
 
