@@ -3,7 +3,7 @@ const apologies    = require('./data/apologies.json');
 const expectations = require('./data/expectations.json');
 const closings     = require('./data/closings.json');
 
-const randomIndex = (a) => Math.floor(Math.random() * (a.length))
+const randomIndex = (a) => Math.floor(Math.random() * (a.length));
 
 const intro       = intros[randomIndex(intros)];
 const apology     = apologies[randomIndex(apologies)];
