@@ -1,7 +1,7 @@
-const intros       = require('./intros.json');
-const apologies    = require('./apologies.json');
-const expectations = require('./expectations.json');
-const closings     = require('./closings.json');
+const intros       = require('./data/intros.json');
+const apologies    = require('./data/apologies.json');
+const expectations = require('./data/expectations.json');
+const closings     = require('./data/closings.json');
 
 const randomIndex = (a) => Math.floor(Math.random() * (a.length))
 
