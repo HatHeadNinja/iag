@@ -1,4 +1,4 @@
-const intros       = ['Hello.','Good day.'];
+const intros       = require('./intros.json');
 const apologies    = ['We are sorry.','We apologize.'];
 const expectations = ['It will take generations to address.','Reconciliation takes time.']
 const closings     = ['We look forward to working with our Indigenous partners.','Together, we can overcome colonial structures and institutions.']
