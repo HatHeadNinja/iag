@@ -9,15 +9,15 @@ const intro       = intros[randomIndex(intros)];
 const apology     = apologies[randomIndex(apologies)];
 const expectation = expectations[randomIndex(expectations)];
 const closing     = closings[randomIndex(closings)];
-const statement   = intro + ' ' 
-                    + apology + ' '
-                    + expectation + ' '
-                    + closing;
+const statement   = intro + ' ' + apology + ' ' + expectation + ' ' + closing;
 
-console.log(statement);
+
+const newStatement = () => document.getElementById('statement').innerHTML = statement;
+//const newStatement = () => alert(intro + ' ' + apology + ' ' + expectation + ' ' + closing);
 
 exports.intro = intro;
 exports.apology = apology;
 exports.expectation = expectation;
 exports.closing = closing;
 exports.statement = statement;
+exports.newStatement = newStatement();
