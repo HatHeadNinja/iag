@@ -1,1 +1,4 @@
-	data = '[{"Quote" : "Statement", "Attribution" : "Politican"}]';
+{
+  "Quote" : "Sentence", 
+  "Attribution" : "Politican"
+}

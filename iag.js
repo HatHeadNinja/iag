@@ -1,28 +1,22 @@
-// const intros       = require('./data/intros.json');
-// const apologies    = require('./data/apologies.json');
-// const expectations = require('./data/expectations.json');
-// const closings     = require('./data/closings.json');
-
-// const randomIndex = (a) => Math.floor(Math.random() * (a.length));
-
-// const intro       = intros[randomIndex(intros)];
-// const apology     = apologies[randomIndex(apologies)];
-// const expectation = expectations[randomIndex(expectations)];
-// const closing     = closings[randomIndex(closings)];
-// const statement   = intro + ' ' + apology + ' ' + expectation + ' ' + closing;
-
-const statement = JSON.parse(data); //?
+function readTextFile(file, callback) {
+  var rawFile = new XMLHttpRequest();
+  rawFile.overrideMimeType("application/json");
+  rawFile.open("GET", file, true);
+  rawFile.onreadystatechange = function() {
+      if (rawFile.readyState === 4 && rawFile.status == "200") {
+          callback(rawFile.responseText);
+      }
+  }
+  rawFile.send(null);
+}
 
 function newStatement () {
-  document.getElementById("statement").innerHTML = statement;
+  readTextFile('data.json)', function(text){
+    let data = JSON.parse(text);
+    document.getElementById("statement").innerHTML = data;
+    console.log(data);
+  });
+  //document.getElementById("statement").innerHTML = "statement";
 }
 
 newStatement();
-//const newStatement = () => alert(intro + ' ' + apology + ' ' + expectation + ' ' + closing);
-
-// exports.intro = intro;
-// exports.apology = apology;
-// exports.expectation = expectation;
-// exports.closing = closing;
-// exports.statement = statement;
-// exports.newStatement = newStatement();
