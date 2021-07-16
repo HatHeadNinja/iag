@@ -11,9 +11,10 @@
 // const closing     = closings[randomIndex(closings)];
 // const statement   = intro + ' ' + apology + ' ' + expectation + ' ' + closing;
 
+const statement = JSON.parse(data); //?
 
 function newStatement () {
-  document.getElementById("statement").innerHTML = "statement";
+  document.getElementById("statement").innerHTML = statement;
 }
 
 newStatement();
