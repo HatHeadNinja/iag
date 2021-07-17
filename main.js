@@ -1,5 +1,5 @@
 function readTextFile(file, callback) {
-  let rawFile = new XMLHttpRequest();
+  const rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
   rawFile.open("GET", file, true);
   rawFile.onreadystatechange = function() {
