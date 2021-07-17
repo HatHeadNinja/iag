@@ -14,6 +14,5 @@ function newStatement (file) {
   readTextFile(file, function(text){
     const data = JSON.parse(text);
     document.getElementById("statement").innerHTML = data.quote + " - " + data.attribution ;
-    console.log(data);
   });
 }
