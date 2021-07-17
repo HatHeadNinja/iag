@@ -13,6 +13,6 @@ function readTextFile(file, callback) {
 function newStatement (file) {
   readTextFile(file, function(text){
     const data = JSON.parse(text);
-    document.getElementById("statement").innerHTML = data.quote + " - " + data.attribution ;
+    document.getElementById("statement").innerHTML = data.quote + " - " + data.attribution;
   });
 }
