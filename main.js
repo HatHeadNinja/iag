@@ -14,6 +14,6 @@ function newStatement() {
   document.getElementById("statement").innerHTML = "Generating statement..."
   readTextFile('./data.json', function(text){
     const data = JSON.parse(text);
-    document.getElementById("statement").innerHTML = data.quote + " - " + data.politican;
+    document.getElementById("statement").innerHTML = data.quote;
   });
 }
