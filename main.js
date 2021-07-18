@@ -11,6 +11,7 @@ function readTextFile(file, callback) {
 }
 
 function newStatement (file) {
+  document.getElementById("statement").innerHTML = "Generating statement..."
   readTextFile(file, function(text){
     const data = JSON.parse(text);
     document.getElementById("statement").innerHTML = data.quote + " - " + data.attribution;
