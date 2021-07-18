@@ -6,10 +6,11 @@
   <script type="text/javascript" src='./main.js'></script>
   <title>Empty Words</title>
 </head>
-<body onload="newStatement('./data.json')">
+<body>
   <h1>Indigenous Statement Generator</h1>
   <p>The following statement has been randomly created from existing government statements:</p>
-  <p id="statement">generating...</p>
+  <p id="statement">Pick one...</p>
+  <button type="button" onclick="newStatement('./data.json')">Words</button>
   <h2>What Action Can I Take?</h2>
   <p>Words without action are empty.</p>
   <p><b>Read the <a href='http://www.trc.ca/assets/pdf/Calls_to_Action_English2.pdf'>Truth and Reconcilation Commissions Calls To Action</a> and:</b></p>
