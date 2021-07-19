@@ -14,6 +14,6 @@ function newStatement() {
   document.getElementById("statement").innerHTML = "Generating statement..."
   readTextFile('./data.json', function(text){
     const data = JSON.parse(text)
-    document.getElementById("statement").innerHTML = data.quote
+    document.getElementById("statement").innerHTML = data.openings[0].quote
   });
 }

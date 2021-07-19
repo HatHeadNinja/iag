@@ -1,5 +1,43 @@
 {
-  "quote": "We will work in true partnership with you to fight discrimination and systemic racism, and advance healing and reconciliation, with real and concrete actions.", 
-  "politican": "Justin Trudeau",
-  "source": "https://twitter.com/JustinTrudeau/status/1415033128184385539"
+  "closings":
+    [
+      {
+        "quote": "And we will work in true partnership with you to fight discrimination and systemic racism, and advance healing and reconciliation, with real and concrete actions.", 
+        "politican": "Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1415033128184385539"
+      },
+      {
+        "quote": "We’ll continue to work in partnership with Indigenous peoples to advance this healing.", 
+        "politican": "Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1412052062351802368"
+      },
+      {
+        "quote": "Saying sorry is not enough - we must take action.", 
+        "politican": "Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1406961947468341250"
+      },
+      {
+        "quote": "We’re committed to working together in true partnership to right these historic wrongs and advance reconciliation in concrete, meaningful, and lasting ways.", 
+        "politican": "Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1408200461501542408"
+      }
+    ],
+  "openings":
+    [
+      {
+        "quote": "Our government is committed to righting past wrongs and addressing ongoing challenges - and we will do so in partnership with Indigenous peoples.",
+        "politican":"Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1406961948546195459"
+      },
+      {
+        "quote": "Our country failed them and, tonight, we’re speaking about this atrocity and the actions we must take to right this wrong.",
+        "politican":"Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1399853352951947269"
+      },
+      {
+        "quote": "We all have a role to play in dismantling systemic inequalities and discrimination.",
+        "politican":"Justin Trudeau",
+        "source": "https://twitter.com/JustinTrudeau/status/1399853352951947269"
+      },
+    ]
 }
