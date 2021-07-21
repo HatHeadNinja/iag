@@ -14,7 +14,7 @@ const randomIndex = (a) => Math.floor(Math.random() * (a.length));
 
 function newStatement() {
   document.getElementById("statement").innerHTML = "Generating statement..."
-  readTextFile('./data.json', function(text){
+  readTextFile('./data.json', function(text) {
     const data = JSON.parse(text)
     const opening = data.openings[randomIndex(data.openings)].quote
     const closing = data.closings[randomIndex(data.closings)].quote
