@@ -14,9 +14,9 @@ function newStatement() {
   document.getElementById("statement").innerHTML = "Generating statement..."
   readTextFile('./data.json', function(text) {
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
-    const data = JSON.parse(text)
-    const opening = data.openings[randomIndex(data.openings)].quote
-    const closing = data.closings[randomIndex(data.closings)].quote
+    const statements = JSON.parse(text)
+    const opening = statements.openings[randomIndex(statements.openings)].quote
+    const closing = statements.closings[randomIndex(statements.closings)].quote
     document.getElementById("statement").innerHTML = opening + " " + closing;
   });
 }
