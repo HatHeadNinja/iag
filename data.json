@@ -5,6 +5,11 @@
         "quote": "Our government is committed to righting past wrongs and addressing ongoing challenges.",
         "politican": "Justin Trudeau",
         "source": "https://twitter.com/JustinTrudeau/status/1406961948546195459"
+      },
+      {
+        "quote": "A second opening sentence by another politician.",
+        "politican": "",
+        "source": ""
       }
     ],
   "closings":
@@ -13,6 +18,11 @@
         "quote": "We’ll continue to work in partnership with Indigenous peoples to advance this healing.", 
         "politican": "Justin Trudeau",
         "source": "https://twitter.com/JustinTrudeau/status/1412052062351802368"
+      },
+      {
+        "quote": "This is a second closing sentence by another politician.", 
+        "politican": "",
+        "source": ""
       }
     ]
 }

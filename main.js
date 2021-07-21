@@ -10,10 +10,14 @@ function readTextFile(file, callback) {
   rawFile.send(null);
 }
 
+const randomIndex = (a) => Math.floor(Math.random() * (a.length));
+
 function newStatement() {
   document.getElementById("statement").innerHTML = "Generating statement..."
   readTextFile('./data.json', function(text){
     const data = JSON.parse(text)
-    document.getElementById("statement").innerHTML = data.openings[0].quote + " " + data.closings[0].quote;
+    const opening = data.openings[randomIndex(data.openings)].quote
+    const closing = data.closings[randomIndex(data.closings)].quote
+    document.getElementById("statement").innerHTML = opening + " " + closing;
   });
 }
