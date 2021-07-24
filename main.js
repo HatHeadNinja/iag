@@ -15,8 +15,9 @@ function newStatement(){
   readTextFile('./data.json', function(text){
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const statements = JSON.parse(text);
-    const opening = statements.openings[randomIndex(statements.openings)].quote;
-    const closing = statements.closings[randomIndex(statements.closings)].quote;
+    const delay = setTimeout((array) => Math.floor(Math.random() * (array.length)), 2000);
+    const opening = statements.openings[delay(statements.openings)].quote;
+    const closing = statements.closings[delay(statements.closings)].quote;
     document.getElementById("statement").innerHTML = opening + " " + closing;
   })
 }
