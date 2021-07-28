@@ -13,7 +13,7 @@ function readTextFile(file, callback){
 function newStatement(){
   document.getElementById("statement").innerHTML = "Generating statement...";
   readTextFile('./data.json', function(text){
-    // need to figure out where to put the animation delay
+    // need to figure out where to put the animation delay.
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const statements = JSON.parse(text);
     const opening = statements.openings[randomIndex(statements.openings)].quote;
