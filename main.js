@@ -11,7 +11,7 @@ function readTextFile(file, callback){
 }
 
 function newStatement(){
-  document.getElementById("statement").innerHTML = "Generating statement...";
+  document.getElementById("statement").innerHTML = "Generating...";
   readTextFile('./data.json', function(text){
     // need to figure out where to put the animation delay.
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
