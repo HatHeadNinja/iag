@@ -1,15 +1,25 @@
 body {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  width: 60%;
+  margin-left: 20%;
 }
 
-.statement {
+p.statement {
   display: flex;
-  flex: 0 0 250px;
+  min-height: 200px;
+  overflow: hidden;
+  border-style: double;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+button {
+  margin: 0 10px;
 }
 
 .cta {
-  display: flex;
-  justify-content: center;
   text-align: left;
 }
