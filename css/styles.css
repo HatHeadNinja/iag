@@ -28,3 +28,7 @@ button {
   width: 100%;
   justify-content: center;
 }
+
+hr {
+  border: 1px solid grey;
+}
