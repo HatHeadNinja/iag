@@ -7,9 +7,19 @@
         "source": "https://twitter.com/JustinTrudeau/status/1406961948546195459"
       },
       {
-        "quote": "A second opening sentence by another politician.",
-        "politican": "",
-        "source": ""
+        "quote": "It is our shared hope that we can learn from this past and continue to advance our journey of reconciliation and healing.",
+        "politican": "Justin Trudeau",
+        "source": "https://pm.gc.ca/en/news/news-releases/2017/11/24/prime-minister-delivers-apology-former-students-newfoundland-and"
+      },
+      {
+        "quote": "We as Canadians cannot speak about our values abroad unless we show that we prepared to put those values to work here in Canada.",
+        "politican": "Paul Martin",
+        "source": "https://pm.gc.ca/en/news/news-releases/2017/11/24/prime-minister-delivers-apology-former-students-newfoundland-and"
+      },
+      {
+        "quote": "No single one of us decides what reconciliation can or should look like.",
+        "politican": "John Horgan",
+        "source": "https://www.straight.com/news/1358971/premier-john-horgan-says-meaningful-reconciliation-indigenous-peoples-our-shared"
       }
     ],
   "closings":
@@ -20,9 +30,19 @@
         "source": "https://twitter.com/JustinTrudeau/status/1412052062351802368"
       },
       {
-        "quote": "This is a second closing sentence by another politician.", 
-        "politican": "",
-        "source": ""
+        "quote": "It will be a positive step in forging a new relationship between Aboriginal peoples and other Canadians.", 
+        "politican": "Stephen Harper",
+        "source": "https://www.rcaanc-cirnac.gc.ca/eng/1100100015644/1571589171655"
+      },
+      {
+        "quote": "It is a shared journey we are on together.",
+        "politican":"John Horgan",
+        "source": "https://www.straight.com/news/1358971/premier-john-horgan-says-meaningful-reconciliation-indigenous-peoples-our-shared"
+      },
+      {
+        "quote": "There is painful but necessary work ahead, and we must confront what happened for reconciliation to the achieved.",
+        "politican": "Doug Ford",
+        "source": "https://www.aljazeera.com/news/2021/6/15/ontario-to-help-search-for-residential-school-burial-sites"
       }
     ]
 }
