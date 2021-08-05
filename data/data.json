@@ -20,6 +20,16 @@
         "quote": "No single one of us decides what reconciliation can or should look like.",
         "politican": "John Horgan",
         "source": "https://www.straight.com/news/1358971/premier-john-horgan-says-meaningful-reconciliation-indigenous-peoples-our-shared"
+      },
+      {
+        "quote": "It is essential to recognize that Canada’s relationship with its Indigenous peoples has not been easy.",
+        "politican":"Jason Kenney",
+        "source": "https://www.albertanativenews.com/national-indigenous-peoples-day-statement-from-united-conservative-leader-jason-kenney/"
+      },
+      {
+        "quote": "We have to understand the reasons that led us here.",
+        "politican":"François Legault",
+        "source": "https://www.cbc.ca/news/canada/montreal/legault-apology-indigenous-full-translation-1.5305959"
       }
     ],
   "closings":
@@ -48,6 +58,16 @@
         "quote": "What we can offer is the solemn assurance that government policies have changed.",
         "politican": "Scott Moe",
         "source": "https://leaderpost.com/news/national/sask-sixties-scoop-apology-premier-moes-speech"
+      },
+      {
+        "quote": "We are committed to ensuring this relationship grows deeper and stronger.",
+        "politican": "Jason Kenney",
+        "source": "https://www.albertanativenews.com/national-indigenous-peoples-day-message-from-alberta-premier-jason-kenney/"
+      },
+      {
+        "quote": "And from now on, we need to change things.",
+        "politican": "François Legault",
+        "source": "https://www.cbc.ca/news/canada/montreal/legault-apology-indigenous-full-translation-1.5305959"
       }
     ]
 }
