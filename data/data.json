@@ -25,6 +25,11 @@
         "quote": "We have to understand the reasons that led us here.",
         "politican":"François Legault",
         "source": "https://www.cbc.ca/news/canada/montreal/legault-apology-indigenous-full-translation-1.5305959"
+      },
+      {
+        "quote": "In partnership with Indigenous peoples, we have taken important first steps.",
+        "politican":"John Horgan",
+        "source": "https://news.gov.bc.ca/releases/2018PREM0086-001255"
       }
     ],
   "closings":
@@ -63,6 +68,11 @@
         "quote": "And from now on, we need to change things.",
         "politican": "François Legault",
         "source": "https://www.cbc.ca/news/canada/montreal/legault-apology-indigenous-full-translation-1.5305959"
+      },
+      {
+        "quote": "Only together, can we begin to heal the traumas of the past.",
+        "politican":"John Horgan",
+        "source": "https://news.gov.bc.ca/releases/2018PREM0086-001255"
       }
     ]
 }
