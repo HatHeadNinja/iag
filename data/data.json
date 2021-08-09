@@ -40,6 +40,11 @@
         "quote": "We understand that the status quo is not sustainable.",
         "politican": "Jim Prentice",
         "source": "https://www.baytoday.ca/local-news/prentice-issues-statement-regarding-national-day-of-action-50832"
+      },
+      {
+        "quote": "There is no question that Indigenous peoples have suffered injustices throughout Canada’s history.",
+        "politican":"Doug Ford",
+        "source": "https://news.ontario.ca/en/statement/1000448/premier-ford-reflects-on-canada-day"
       }
     ],
   "closings":
@@ -93,6 +98,11 @@
         "quote": "Walking this journey together, we will not fail.",
         "politican": "Kathleen Wynne",
         "source": "https://www.thestar.com/news/queenspark/2016/05/30/full-text-of-kathleen-wynnes-formal-apology-to-indigenous-peoples.html"
+      },
+      {
+        "quote": "Together, we will emerge from this crisis stronger and more united as a province and country than ever.",
+        "politican":"Doug Ford",
+        "source": "https://news.ontario.ca/en/statement/1000448/premier-ford-reflects-on-canada-day"
       }
     ]
 }
