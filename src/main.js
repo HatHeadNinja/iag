@@ -13,6 +13,7 @@ function readTextFile(file, callback){
 function newStatement(){
   document.getElementById("statement").innerHTML = "Generating...";
   // need to figure out where to put the animation delay.
+  // get start time
   readTextFile('./data/data.json', function(text){
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const statements = JSON.parse(text);
@@ -21,4 +22,5 @@ function newStatement(){
     document.getElementById("statement").innerHTML = opening + " " + closing;
   })
   // end delay
+  // -- compare start time to current time, if difference < 2 seconds, delay for difference
 }
