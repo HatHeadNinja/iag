@@ -14,6 +14,7 @@ function newStatement(){
   document.getElementById("statement").innerHTML = "Generating...";
   // need to figure out where to put the animation delay.
   // get start time
+  const startTime = Date.now();
   readTextFile('./data/data.json', function(text){
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const statements = JSON.parse(text);
