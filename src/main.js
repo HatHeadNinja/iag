@@ -22,8 +22,8 @@ function newStatement(){
     const opening = statements.openings[randomIndex(statements.openings)].quote;
     const closing = statements.closings[randomIndex(statements.closings)].quote;
     statement = opening + " " + closing;
+    document.getElementById("statement").innerHTML = statement;
   })
   // end delay
   // -- compare start time to current time, if difference < 2 seconds, delay for difference
-  document.getElementById("statement").innerHTML = statement;
 }
