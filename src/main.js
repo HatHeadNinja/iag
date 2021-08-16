@@ -11,20 +11,17 @@ function readTextFile(file, callback){
 }
 
 function newStatement(){
-  // intialize with user message
-  let statement = 'Generating...'
-  document.getElementById("statement").innerHTML = statement;
+  // intialization message
+  document.getElementById("statement").innerHTML = 'Generating...';
   
   readTextFile('./data/data.json', (text) => {
-    // parse and generate statement
-    const randomIndex = (array) => Math.floor(Math.random() * (array.length));
+    // parse data source and randomly select sentences
     const statements = JSON.parse(text);
+    const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const opening = statements.openings[randomIndex(statements.openings)].quote;
     const closing = statements.closings[randomIndex(statements.closings)].quote;
 
-    // animation timer delay and display concatenated statement
+    // delay timer for animation and display concatenated statement
     setTimeout(() => {document.getElementById("statement").innerHTML = opening + ' ' + closing;}, 500);
-    
   })
-
 }
