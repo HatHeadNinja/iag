@@ -8,6 +8,7 @@ body {
 
 .statement {
   display: flex;
+  flex-direction: column;
   min-height: 300px;
   overflow: hidden;
   border-style: double;
