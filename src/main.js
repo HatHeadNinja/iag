@@ -11,21 +11,20 @@ function readTextFile(file, callback){
 }
 
 function newStatement(){
+  // intialize with user message
   let statement = 'Generating...'
   document.getElementById("statement").innerHTML = statement;
-  // need to figure out where to put the animation delay.
-  // get start time
-  const startTime = Date.now();
-  readTextFile('./data/data.json', function(text){
+  
+  readTextFile('./data/data.json', (text) => {
+    // parse and generate statement
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const statements = JSON.parse(text);
     const opening = statements.openings[randomIndex(statements.openings)].quote;
     const closing = statements.closings[randomIndex(statements.closings)].quote;
-    statement = opening + " " + closing;
-    document.getElementById("statement").innerHTML = statement;
+
+    // animation timer delay and display concatenated statement
+    setTimeout(() => {document.getElementById("statement").innerHTML = opening + ' ' + closing;}, 500);
+    
   })
-  // end delay
-  // -- compare start time to current time, if difference < 2 seconds, delay for difference
-  const delayedTime = Date.now() - startTime;
-  console.log('delayedTime', delayedTime);
+
 }
