@@ -26,5 +26,6 @@ function newStatement(){
   })
   // end delay
   // -- compare start time to current time, if difference < 2 seconds, delay for difference
-  const delay = Date.now() - startTime;
+  const delayedTime = Date.now() - startTime;
+  console.log('delayedTime', delayedTime);
 }
