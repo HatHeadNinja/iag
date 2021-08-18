@@ -50,6 +50,11 @@
         "quote": "As Canadians, we must confront our mistakes, learn from them, and work to right past and current wrongs.",
         "politican":"Justin Trudeau",
         "source": "https://pm.gc.ca/en/news/statements/2021/08/09/statement-prime-minister-international-day-worlds-indigenous-peoples"
+      },
+      {
+        "quote": "There have been many conversations about the sad reality that Indigenous people are still subject to racism, both systemic and overt.",
+        "politican": "Stephen McNeil",
+        "source": "https://novascotia.ca/news/release/?id=20200621001"
       }
     ],
   "closings":
@@ -108,6 +113,11 @@
         "quote": "Together, we will emerge from this crisis stronger and more united as a province and country than ever.",
         "politican":"Doug Ford",
         "source": "https://news.ontario.ca/en/statement/1000448/premier-ford-reflects-on-canada-day"
+      },
+      {
+        "quote": "This is unacceptable and we all have a role to play in ensuring we have a fair and just society for all.",
+        "politican": "Stephen McNeil",
+        "source": "https://novascotia.ca/news/release/?id=20200621001"
       }
     ]
 }
