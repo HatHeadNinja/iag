@@ -1,4 +1,4 @@
-function readTextFile(file, callback){
+function readJSONFile(file, callback){
   const rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
   rawFile.open("GET", file, true);
@@ -14,7 +14,7 @@ function newStatement(){
   // intialization message
   document.getElementById("statement").innerHTML = 'Generating...';
   
-  readTextFile('./data/data.json', (text) => {
+  readJSONFile('./data/data.json', (text) => {
     // parse data source and randomly select sentences
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
