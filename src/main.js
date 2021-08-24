@@ -15,7 +15,7 @@ function newStatement(){
   document.getElementById("statement").innerHTML = 'Generating...';
   
   readJSONFile('./data/data.json', (text) => {
-    // parse data source and randomly select sentences
+    // parse data source and randomly select quotes
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     const opening = statements.openings[randomIndex(statements.openings)].quote;
