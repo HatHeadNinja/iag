@@ -5,3 +5,5 @@ User decides to generate a statement or select the Action button, which links th
 Page generate a 2 sentence statement from a JSON file of sentences
 
 During the generation, the user will see an animation.
+
+Footer
