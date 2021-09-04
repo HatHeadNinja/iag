@@ -6,4 +6,4 @@ Page generate a 2 sentence statement from a JSON file of sentences
 
 During the generation, the user will see an animation.
 
-Footer
+Footer links out to TRC CTA and learning resources.
