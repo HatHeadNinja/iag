@@ -1,6 +1,6 @@
 The goal of this project is to get people to read the TRC Calls To Action.
 
-User decides to generate a statement or select the Action button, which links the user to TRC CTA pdf.
+The user decides to generate a statement or select the Action button, which links the user to TRC CTA pdf.
 
 Page generates a 2 sentence statement from a JSON file of sentences.
 
