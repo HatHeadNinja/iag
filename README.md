@@ -6,6 +6,6 @@ Page randomly generates a 2 sentence statement from a JSON file of sentences.
 
 During the generation, the user will see an animation.
 
-Below animation are inks out to TRC CTA and learning resources.
+Below animation are links out to TRC CTA and learning resources.
 
 Footer with link to Twitter thread providing background.
