@@ -1,4 +1,4 @@
-The goal of this project is to get people to read the TRC Calls To Action.
+The goal of this project is to get more people to read the TRC Calls To Action.
 
 The user decides to generate a statement or select the Action button, which links the user to an external TRC CTA pdf.
 
