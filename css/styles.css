@@ -32,7 +32,6 @@ button {
 }
 
 hr {
-  display: flex;
-  flex-direction: row;
+  width: 100%;
   border: 1px solid grey;
 }
