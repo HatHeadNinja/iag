@@ -7,7 +7,7 @@ function readJSONFile(file, callback){
         callback(rawFile.responseText);
     }
   }
-  rawFile.send(null)
+  rawFile.send(null);
 }
 
 function newStatement(){
