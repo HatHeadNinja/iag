@@ -24,4 +24,4 @@ function newStatement(){
     // delay timer for animation and display concatenated statement
     setTimeout(() => {document.getElementById("statement").innerHTML = opening + ' ' + closing;}, 500);
   });
-}
+};
