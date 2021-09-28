@@ -19,7 +19,6 @@ function newStatement(){
   statement.innerHTML = 'Generating...';
 
   readJSONFile('./data/data.json', (text) => {
-    // parse data source and randomly select quotes
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     
@@ -29,6 +28,8 @@ function newStatement(){
                             + ' ' 
                             + statements.closings[randomIndex(statements.closings)].quote;
         wordsBtn.disabled = false;
-      }, 500);
+      }, 
+      500 // millisecond delay
+    ); 
   });
 };
