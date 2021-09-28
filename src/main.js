@@ -16,18 +16,18 @@ function newStatement(){
   
   // disable button, intialization message
   wordsBtn.disabled = true;
-  statement.innerHTML = 'Generating...'
+  statement.innerHTML = 'Generating...';
 
   readJSONFile('./data/data.json', (text) => {
     // parse data source and randomly select quotes
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
-    const opening = statements.openings[randomIndex(statements.openings)].quote;
-    const closing = statements.closings[randomIndex(statements.closings)].quote;
-
+    
     // delay timer for animation, display concatenated statement and enable button
     setTimeout(() => {
-        statement.innerHTML = opening + ' ' + closing;
+        statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
+                            + ' ' 
+                            + statements.closings[randomIndex(statements.closings)].quote;
         wordsBtn.disabled = false;
       }, 500);
   });
