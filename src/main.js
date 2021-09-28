@@ -22,7 +22,7 @@ function newStatement(){
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     
-    // delay timer for animation, display concatenated statement and enable button
+    // delay timer for animation, display concatenated statement and re-enable button
     setTimeout(() => {
         statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
                             + ' ' 
