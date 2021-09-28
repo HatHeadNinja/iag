@@ -11,15 +11,15 @@ function readJSONFile(file, callback){
 }
 
 function newStatement(){
-  const wordsBtn = document.getElementById("words");
+  const wordsBtn  = document.getElementById("words");
   const statement = document.getElementById("statement");
   
   // disable button and display intialization message
-  wordsBtn.disabled = true;
+  wordsBtn.disabled   = true;
   statement.innerHTML = 'Generating...';
 
   readJSONFile('./data/data.json', (text) => {
-    const statements = JSON.parse(text);
+    const statements  = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     
     // display concatenated statement and re-enable button
@@ -27,7 +27,7 @@ function newStatement(){
         statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
                             + ' ' 
                             + statements.closings[randomIndex(statements.closings)].quote;
-        wordsBtn.disabled = false;
+        wordsBtn.disabled   = false;
       }, 
       500 // millisecond delay for animation
     ); 
