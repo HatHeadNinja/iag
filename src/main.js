@@ -14,7 +14,7 @@ function newStatement(){
   const wordsBtn = document.getElementById("words");
   const statement = document.getElementById("statement");
   
-  // disable button, intialization message
+  // disable button and display intialization message
   wordsBtn.disabled = true;
   statement.innerHTML = 'Generating...';
 
