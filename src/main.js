@@ -22,14 +22,14 @@ function newStatement(){
     const statements = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     
-    // delay timer for animation, display concatenated statement and re-enable button
+    // display concatenated statement and re-enable button
     setTimeout(() => {
         statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
                             + ' ' 
                             + statements.closings[randomIndex(statements.closings)].quote;
         wordsBtn.disabled = false;
       }, 
-      500 // millisecond delay
+      500 // millisecond delay for animation
     ); 
   });
 };
