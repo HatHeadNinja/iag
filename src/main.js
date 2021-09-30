@@ -13,7 +13,6 @@ function readJSONFile(file, callback){
 function newStatement(){
   const statement = document.getElementById("statement");
   const wordsBtn  = document.getElementById("words");
-  const actionBtn = document.getElementById("action");
   
   // disable button and display intialization message
   wordsBtn.disabled   = true;
@@ -23,13 +22,13 @@ function newStatement(){
     const statements  = JSON.parse(text);
     const randomIndex = (array) => Math.floor(Math.random() * (array.length));
     
-    // display concatenated statement and re-enable button
+    // display concatenated statement, re-enable button, set focus to action button
     setTimeout(() => {
       statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
                             + ' ' 
                             + statements.closings[randomIndex(statements.closings)].quote;
       wordsBtn.disabled   = false;
-      actionBtn.focus();
+      document.getElementById("action").focus();
       }, 
       500 // millisecond delay for animation
     ); 
