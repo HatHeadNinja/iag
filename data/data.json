@@ -90,6 +90,11 @@
         "quote": "This is not something that happened in the past.",
         "politican":"John Horgan",
         "source": "https://globalnews.ca/news/7908573/bc-premier-john-horgan-kamloops-residential-school-statement/"
+      },
+      {
+        "quote": "This is not something of the past but rooted in the present day.",
+        "politican": "Caroline Cochrane",
+        "source": "https://www.gov.nt.ca/en/newsroom/national-day-truth-and-reconciliation"
       }
     ],
   "closings":
@@ -178,6 +183,16 @@
         "quote": "Reconciliation is a journey we must take together.",
         "politican": "John Streicker",
         "source": "https://yukon.ca/en/news/september-30-now-federal-holiday-national-day-truth-and-reconciliation"
+      },
+      {
+        "quote": "Together, we can advance reconciliation and support Indigenous self-determination.",
+        "politican": "Caroline Cochrane",
+        "source": "https://www.gov.nt.ca/en/newsroom/national-day-truth-and-reconciliation"
+      },
+      {
+        "quote": "Reconciliation is collective accountability for all Canadians and requires action not just today, but every day.",
+        "politican": "Bell",
+        "source": "https://www.iqaluit.ca/news/national-day-truth-and-reconciliation"
       }
     ]
 }
