@@ -80,6 +80,11 @@
         "quote": "These harms are a daily, lived reality for Indigenous peoples.",
         "politican":"John Horgan",
         "source": "https://news.gov.bc.ca/releases/2021PREM0042-001193"
+      },
+      {
+        "quote": "It is imperative that future generations learn from the mistakes of the past if we are to grow as a province and a country.",
+        "politican": "Blaine Higgs",
+        "source": "https://www2.gnb.ca/content/gnb/en/news/news_release.2021.09.0677.html"
       }
     ],
   "closings":
@@ -158,6 +163,11 @@
         "quote": "This long and difficult journey cannot be completed in one day; we must pledge to undertake it — together — each and every day.",
         "politican": "Doug Ford",
         "source": "https://news.ontario.ca/en/statement/1000905/ontario-commemorates-orange-shirt-day-and-national-day-for-truth-and-reconciliation"
+      },
+      {
+        "quote": "We should also strive to improve our understanding of the histories and cultures of Indigenous peoples.",
+        "politican": "Lisa Dempster",
+        "source": "https://www.gov.nl.ca/releases/2021/exec/0929n05/"
       }
     ]
 }
