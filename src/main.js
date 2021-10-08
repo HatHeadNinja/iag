@@ -16,7 +16,7 @@ function newStatement(){
   
   // disable button and display intialization message
   wordsBtn.disabled   = true;
-  statement.innerHTML = 'Generating....';
+  statement.innerHTML = 'Generating...';
   
   readJSONFile('./data/data.json', (text) => {
     const statements  = JSON.parse(text);
