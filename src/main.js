@@ -17,6 +17,9 @@ function newStatement(){
   // disable button and display intialization message
   wordsBtn.disabled   = true;
   statement.innerHTML = 'Generating...';
+
+  // TODO: change json to single dimension, pick two random quotes
+  // and make sure the two random quotes are not the same
   
   readJSONFile('./data/data.json', (text) => {
     const statements  = JSON.parse(text);
