@@ -19,7 +19,7 @@ function newStatement(){
   statement.innerHTML = 'Generating...';
 
   // TODO: change json to single dimension, pick two random quotes
-  // and make sure the two random quotes are not the same
+  // and make sure the two random quotes are not the same quote
   
   readJSONFile('./data/data.json', (text) => {
     const statements  = JSON.parse(text);
