@@ -27,9 +27,9 @@ function newStatement(){
     
     // display concatenated statement, re-enable button, set focus to action button
     setTimeout(() => {
-      statement.innerHTML = statements.openings[randomIndex(statements.openings)].quote
+      statement.innerHTML = statements[randomIndex(statements)].quote
                             + ' ' 
-                            + statements.closings[randomIndex(statements.closings)].quote;
+                            + statements[randomIndex(statements)].quote;
       wordsBtn.disabled   = false;
       document.getElementById("action").focus();
       }, 
