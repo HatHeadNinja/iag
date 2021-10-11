@@ -32,9 +32,9 @@ function newStatement(){
     
     // display concatenated statement, re-enable button, set focus to action button
     setTimeout(() => {
-      statement.innerHTML = randomStatement;
-      wordsBtn.disabled   = false;
-      document.getElementById("action").focus();
+        statement.innerHTML = randomStatement;
+        wordsBtn.disabled   = false;
+        document.getElementById("action").focus();
       }, 
       500 // millisecond delay for animation
     ); 
