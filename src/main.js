@@ -18,8 +18,7 @@ function newStatement(){
   wordsBtn.disabled   = true;
   statement.innerHTML = 'Generating...';
 
-  // TODO: change json to single dimension, pick two random quotes
-  // and make sure the two random quotes are not the same quote
+  // TODO: make sure the two random quotes are not the same quote
   
   readJSONFile('./data/data.json', (text) => {
     const statements  = JSON.parse(text);
