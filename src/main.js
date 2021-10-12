@@ -26,7 +26,7 @@ function newStatement(){
     const openingQuote    = statements[randomIndex()].quote;
     const getClosingQuote = (openingQuote, statements) => {
       const closingQuote  = statements[randomIndex()].quote;
-      return (openingQuote != closingQuote) ? closingQuote : getClosingQuote(openingQuote, statements);
+      return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote, statements);
     }
     const randomStatement = openingQuote + " " + getClosingQuote(openingQuote, statements);
     
