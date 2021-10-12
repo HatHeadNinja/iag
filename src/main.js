@@ -22,10 +22,10 @@ function newStatement(){
     const statements  = JSON.parse(text);
 
     // select 2 random quotes and make sure they are not the same
-    const randomIndex = (array) => Math.floor(Math.random() * (array.length));
-    const openingQuote = statements[randomIndex(statements)].quote;
+    const randomIndex = () => Math.floor(Math.random() * (statements.length));
+    const openingQuote = statements[randomIndex()].quote;
     const getClosingQuote = (openingQuote, statements) => {
-      const closingQuote = statements[randomIndex(statements)].quote;
+      const closingQuote = statements[randomIndex()].quote;
       return (openingQuote === closingQuote) ? getClosingQuote(closingQuote, statements) : closingQuote;
     }
     const randomStatement = openingQuote + " " + getClosingQuote(openingQuote, statements);
