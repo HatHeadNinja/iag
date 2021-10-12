@@ -14,7 +14,7 @@ function newStatement(){
   const statement = document.getElementById("statement");
   const wordsBtn  = document.getElementById("words");
   
-  // disable button and display intialization message
+  // disable Words button and display intialization message
   wordsBtn.disabled   = true;
   statement.innerHTML = 'Generating...';
 
@@ -23,7 +23,7 @@ function newStatement(){
 
     // select 2 random quotes and make sure they are not the same
     // assumes at least 2 quotes available, or else infinite loop
-    // however user can always click the Action button (site goal)
+    // however user can always click the Action button (conversion)
     const randomIndex     = () => Math.floor(Math.random() * (statements.length));
     const openingQuote    = statements[randomIndex()].quote;
     const getClosingQuote = () => {
