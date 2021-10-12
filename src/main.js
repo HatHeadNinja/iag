@@ -28,11 +28,10 @@ function newStatement(){
       const closingQuote  = statements[randomIndex()].quote;
       return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote, statements);
     }
-    const randomStatement = openingQuote + " " + getClosingQuote(openingQuote, statements);
     
     // display concatenated statement, re-enable button, set focus to action button
     setTimeout(() => {
-        statement.innerHTML = randomStatement;
+        statement.innerHTML = openingQuote + " " + getClosingQuote(openingQuote, statements);;
         wordsBtn.disabled   = false;
         document.getElementById("action").focus();
       }, 
