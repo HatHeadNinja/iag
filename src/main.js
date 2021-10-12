@@ -40,7 +40,7 @@ function newStatement(){
         wordsBtn.disabled   = false;
         document.getElementById("action").focus();
       }, 
-      statement.innerHTML.length * 65 // millisecond delay for animation
+      statement.innerHTML.length * 60 // millisecond delay for animation
     ); 
   });
 };
