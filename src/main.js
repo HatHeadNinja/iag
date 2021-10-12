@@ -24,14 +24,14 @@ function newStatement(){
     // select 2 random quotes and make sure they are not the same
     const randomIndex     = () => Math.floor(Math.random() * (statements.length));
     const openingQuote    = statements[randomIndex()].quote;
-    const getClosingQuote = (openingQuote, statements) => {
+    const getClosingQuote = (openingQuote) => {
       const closingQuote  = statements[randomIndex()].quote;
-      return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote, statements);
+      return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote);
     }
     
     // display concatenated statement, re-enable words button, set focus to action button
     setTimeout(() => {
-        statement.innerHTML = openingQuote + " " + getClosingQuote(openingQuote, statements);
+        statement.innerHTML = openingQuote + " " + getClosingQuote(openingQuote);
         wordsBtn.disabled   = false;
         document.getElementById("action").focus();
       }, 
