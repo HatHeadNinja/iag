@@ -29,7 +29,7 @@ function newStatement(){
       return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote, statements);
     }
     
-    // display concatenated statement, re-enable button, set focus to action button
+    // display concatenated statement, re-enable words button, set focus to action button
     setTimeout(() => {
         statement.innerHTML = openingQuote + " " + getClosingQuote(openingQuote, statements);;
         wordsBtn.disabled   = false;
