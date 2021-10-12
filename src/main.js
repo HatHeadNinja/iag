@@ -22,13 +22,13 @@ function newStatement(){
     const statements = JSON.parse(text);
 
     // select 2 random quotes and make sure they are not the same
-    const randomIndex      = () => Math.floor(Math.random() * (statements.length));
-    const openingQuote     = statements[randomIndex()].quote;
-    const getClosingQuote  = (openingQuote, statements) => {
+    const randomIndex     = () => Math.floor(Math.random() * (statements.length));
+    const openingQuote    = statements[randomIndex()].quote;
+    const getClosingQuote = (openingQuote, statements) => {
       const closingQuote   = statements[randomIndex()].quote;
       return (openingQuote === closingQuote) ? getClosingQuote(closingQuote, statements) : closingQuote;
     }
-    const randomStatement  = openingQuote + " " + getClosingQuote(openingQuote, statements);
+    const randomStatement = openingQuote + " " + getClosingQuote(openingQuote, statements);
     
     // display concatenated statement, re-enable button, set focus to action button
     setTimeout(() => {
