@@ -22,16 +22,18 @@ function newStatement(){
     const statements = JSON.parse(text);
 
     // select 2 random quotes and make sure they are not the same
+    // assumes at least 2 quotes available, or else infinite loop
+    // however user can always click the Action button (site goal)
     const randomIndex     = () => Math.floor(Math.random() * (statements.length));
     const openingQuote    = statements[randomIndex()].quote;
-    const getClosingQuote = (openingQuote) => {
+    const getClosingQuote = () => {
       const closingQuote  = statements[randomIndex()].quote;
-      return (closingQuote != openingQuote) ? closingQuote : getClosingQuote(openingQuote);
+      return (closingQuote != openingQuote) ? closingQuote : getClosingQuote();
     }
     
     // display concatenated statement, re-enable words button, set focus to action button
     setTimeout(() => {
-        statement.innerHTML = openingQuote + " " + getClosingQuote(openingQuote);
+        statement.innerHTML = openingQuote + " " + getClosingQuote();
         wordsBtn.disabled   = false;
         document.getElementById("action").focus();
       }, 
