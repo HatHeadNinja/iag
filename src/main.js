@@ -31,7 +31,7 @@ function newStatement(){
       return (closingQuote != openingQuote) ? closingQuote : getClosingQuote();
     }
     
-    // display concatenated statement, re-enable words button, set focus to action button
+    // display concatenated statement, re-enable words button, set focus to Action button
     setTimeout(() => {
         statement.innerHTML = openingQuote + " " + getClosingQuote();
         wordsBtn.disabled   = false;
