@@ -21,8 +21,6 @@ function newStatement(){
   readJSONFile('./data/data.json', (text) => {
     
     // select 2 random quotes and make sure they are not the same
-    // assumes at least 2 quotes available or else infinite loop
-    // however user can always click the Action button (conversion)
     const statements      = JSON.parse(text);
     const randomIndex     = () => Math.floor(Math.random() * (statements.length));
     const openingQuote    = statements[randomIndex()].quote;
