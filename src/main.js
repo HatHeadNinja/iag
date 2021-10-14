@@ -29,11 +29,10 @@ function newStatement(){
       return (closingQuote != openingQuote) ? closingQuote : getClosingQuote();
     }
     
-    // display concatenated statement, re-enable words button, set focus to Action button
+    // display concatenated statement, re-enable words button
     setTimeout(() => {
         statement.innerHTML = openingQuote + " " + getClosingQuote();
         wordsBtn.disabled   = false;
-        document.getElementById("action").focus();
       }, 
       statement.innerHTML.length * 50 // millisecond delay for animation
     ) 
