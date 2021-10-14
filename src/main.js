@@ -37,7 +37,7 @@ function newStatement(){
         wordsBtn.disabled   = false;
         document.getElementById("action").focus();
       }, 
-      statement.innerHTML.length * 50 // millisecond delay for animation
-    ); 
-  });
-};
+      statement.innerHTML.length * 50; // millisecond delay for animation
+    ) 
+  })
+}
