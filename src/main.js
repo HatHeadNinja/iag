@@ -13,8 +13,8 @@ function readJSONFile(file, callback){
 function newStatement(){
   
   // disable Words button and display intialization message
-  const wordsBtn  = document.getElementById("words");
-  const statement = document.getElementById("statement");
+  const wordsBtn      = document.getElementById("words");
+  const statement     = document.getElementById("statement");
   wordsBtn.disabled   = true;
   statement.innerHTML = 'Generating...';
 
@@ -23,7 +23,7 @@ function newStatement(){
     // select 2 random quotes and make sure they are not the same
     // assumes at least 2 quotes available or else infinite loop
     // however user can always click the Action button (conversion)
-    const statements = JSON.parse(text);
+    const statements      = JSON.parse(text);
     const randomIndex     = () => Math.floor(Math.random() * (statements.length));
     const openingQuote    = statements[randomIndex()].quote;
     const getClosingQuote = () => {
