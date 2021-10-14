@@ -11,8 +11,8 @@ function readJSONFile(file, callback){
 }
 
 function newStatement(){
-  const statement = document.getElementById("statement");
   const wordsBtn  = document.getElementById("words");
+  const statement = document.getElementById("statement");
   
   // disable Words button and display intialization message
   wordsBtn.disabled   = true;
