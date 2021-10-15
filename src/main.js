@@ -33,8 +33,8 @@ function newStatement(){
     setTimeout(() => {
         statement.innerHTML = openingQuote + " " + getClosingQuote();
         wordsBtn.disabled   = false;
-      }, 
+      },
       statement.innerHTML.length * 50 // millisecond delay for animation
-    ) 
+    )
   })
 }
