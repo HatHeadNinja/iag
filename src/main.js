@@ -16,7 +16,7 @@ function newStatement(){
   const wordsBtn      = document.getElementById("words");
   const statement     = document.getElementById("statement");
   wordsBtn.disabled   = true;
-  statement.innerHTML = 'Generating....';
+  statement.innerHTML = 'Generating...';
 
   readJSONFile('./data/data.json', (text) => {
     
