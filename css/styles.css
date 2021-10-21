@@ -2,8 +2,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* width: 80%;
-  margin-left: 10%; */
 }
 
 .statement-container {
