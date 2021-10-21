@@ -2,8 +2,15 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 80%;
-  margin-left: 10%;
+  /* width: 80%;
+  margin-left: 10%; */
+}
+
+.statement-container {
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
 }
 
 .statement {
