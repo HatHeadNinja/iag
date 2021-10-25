@@ -17,6 +17,7 @@ function loadAllQuotes(){
   })
 }
 
+// WHY WON'T THIS WORK???
 // const allQuotes = () => {readJSONFile('./data/data.json', (text) => JSON.parse(text));
 
 function newStatement(){
