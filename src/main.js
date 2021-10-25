@@ -11,13 +11,12 @@ function readJSONFile(file, callback){
 }
 
 let allQuotes = [];
-function loadAllQuotes(){
+const loadAllQuotes = () => {
   readJSONFile('./data/data.json', (text) => {
     allQuotes = JSON.parse(text);
   })
 }
-
-// WHY WON'T THIS WORK???
+// THE ABOVE WORKS, SO WHY WON'T THIS WORK???
 // const allQuotes = () => readJSONFile('./data/data.json', (text) => JSON.parse(text));
 
 function newStatement(){
