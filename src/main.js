@@ -1,3 +1,5 @@
+let allQuotes = [];
+
 function readJSONFile(file, callback){
   const rawFile = new XMLHttpRequest();
   rawFile.overrideMimeType("application/json");
@@ -10,6 +12,14 @@ function readJSONFile(file, callback){
   rawFile.send(null);
 }
 
+function loadAllQuotes(){
+
+  readJSONFile('./data/data.json', (text) => {
+    allQuotes = JSON.parse(text);
+  })
+}
+
+
 function newStatement(){
   
   // disable Words button and display intialization message
@@ -21,11 +31,11 @@ function newStatement(){
   readJSONFile('./data/data.json', (text) => {
     
     // select 2 random quotes and make sure they are not the same
-    const statements      = JSON.parse(text);
-    const randomIndex     = () => Math.floor(Math.random() * (statements.length));
-    const openingQuote    = statements[randomIndex()].quote;
+    // const statements      = JSON.parse(text);
+    const randomIndex     = () => Math.floor(Math.random() * (allQuotes.length));
+    const openingQuote    = allQuotes[randomIndex()].quote;
     const getClosingQuote = () => {
-      const closingQuote  = statements[randomIndex()].quote;
+      const closingQuote  = allQuotes[randomIndex()].quote;
       return (closingQuote != openingQuote) ? closingQuote : getClosingQuote();
     }
     
