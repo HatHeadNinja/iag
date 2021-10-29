@@ -21,7 +21,7 @@ function newStatement(){
   const wordsBtn      = document.getElementById("words");
   const statement     = document.getElementById("statement");
   wordsBtn.disabled   = true;
-  statement.innerHTML = 'Generating...';
+  statement.innerHTML = 'Generating....';
 
   // select 2 random quotes and make sure they are not the same
   // const statements      = JSON.parse(text);
